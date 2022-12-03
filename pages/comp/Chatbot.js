@@ -4,8 +4,8 @@ import axios from "axios";
 
 
 var data = {
-  headerText: "hello hello ✨",
-  pText: "I'm Kora cute bot!",
+  headerText: "Hello Senpie",
+  pText: "I'm Kora Chatbot!",
   p2Text: "Made with React + Kora Api",
   userMessages: [],
   botMessages: [],
@@ -179,7 +179,7 @@ class BotBubble extends React.Component {
 var Header = props => {
   return (
     <div className="header">
-      <div className="header-img" />
+      <img src="kora.jpg" className="header-img" />
       <h1> {props.headerText} </h1>
       <h2> {props.pText} </h2>
       <p> {props.p2Text} </p>
