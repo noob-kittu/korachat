@@ -1,8 +1,5 @@
 import React from "react";
 
-import axios from "axios";
-
-
 var data = {
   headerText: "Hello Senpie",
   pText: "I'm Kora Chatbot!",
